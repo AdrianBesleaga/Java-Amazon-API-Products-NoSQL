@@ -1,0 +1,5 @@
+Lombok does not work in Java JDK 10
+
+Illegal reflective access by lombok.javac.apt.LombokProcessor to field com.sun.tools.javac.processing.JavacProcessingEnvironment.discoveredProcs
+
+https://github.com/rzwitserloot/lombok/issues/1644

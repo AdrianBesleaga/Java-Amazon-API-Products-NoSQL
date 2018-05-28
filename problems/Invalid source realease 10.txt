@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/25878045/errorjava-invalid-source-release-8-in-intellij-what-does-it-mean
+
+Error:java: invalid source release: 10
+
+File -> Project Structure -> Project Settings
+File -> Project Structure -> Module Settings -> Tab: Sources: Language Level
+File -> Project Structure -> Module Settings -> Tab: Dependencies: Module SDK
+File -> Settings -> Compiler -> Java Compiler -> Target bytecode version

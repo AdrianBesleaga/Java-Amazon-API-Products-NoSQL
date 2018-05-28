@@ -1,0 +1,7 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+
+
+https://stackoverflow.com/questions/46474104/illegal-reflective-access-in-an-applet-with-jaxb-and-jdk-9?rq=1
+
+https://stackoverflow.com/questions/50237516/proper-fix-for-java-10-complaining-about-illegal-reflection-access-by-jaxb-impl

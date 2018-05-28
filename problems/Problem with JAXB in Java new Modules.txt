@@ -1,0 +1,17 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at start(Main.java:40)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+
+https://stackoverflow.com/questions/43574426/how-to-resolve-java-lang-noclassdeffounderror-javax-xml-bind-jaxbexception-in-j
+
+
+Solution : 
+
+
+<dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.0</version>
+</dependency>
+
+https://www.concretepage.com/forum/thread?qid=531

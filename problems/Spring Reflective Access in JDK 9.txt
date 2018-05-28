@@ -1,0 +1,10 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1
+
+https://stackoverflow.com/questions/46671472/illegal-reflective-access-by-org-springframework-cglib-core-reflectutils1
+
+
+
+Solution 
+
+--add-opens java.base/java.lang=ALL-UNNAMED
